@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url(./fonts.css);
+@import url(./reset.css);
+
+#wrap {width:100%;} 
+#wrap #svg {width: 100%; padding: 100px 0;}
+#wrap #svg .container {width: 100%; max-width: 1450px; margin: 0 auto;}
+#wrap #svg .container svg {background: #f0f0f0;}
+#wrap #svg .container svg .rect1 {fill: transparent; stroke: #9cc; stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: rect1 6s forwards infinite;}
+#wrap #svg .container svg .rect2 {fill: transparent; stroke: #99c; stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: rect2 6s forwards infinite;}
+#wrap #svg .container svg .rect3 {fill: transparent; stroke: #99c; stroke-dasharray: 942.4777961; stroke-dashoffset: 942.4777961; animation: rect3 6s forwards infinite;}
+#wrap #svg .container svg .circle {fill: transparent; stroke: #99c; stroke-dasharray: 942.4777961;stroke-dashoffset: 942.4777961; animation:circle 6s forwards infinite;}
+
+@keyframes rect1 {
+   0% {stroke-dashoffset: 1200; fill: transparent;}
+   60% {stroke-dashoffset: 0; fill: transparent;}
+   70% {stroke-dashoffset: 0; fill: #99c;}
+   100% {stroke-dashoffset: 1200; fill: transparent;}
+}
+
+@keyframes rect2{
+   0% {stroke-dashoffset: 1200; fill: transparent;}
+   60% {stroke-dashoffset: 0; fill: transparent;}
+   70% {stroke-dashoffset: 0; fill: #99c;}
+   100% {stroke-dashoffset: 1200; fill: transparent;}
+}
+@keyframes rect3 {
+   0% {stroke-dashoffset: 942.4777961; fill: transparent;}
+   60% {stroke-dashoffset: 0; fill: transparent;}
+   70% {stroke-dashoffset: 0; fill: #9cc;}
+   100% {stroke-dashoffset: 942.4777961; fill: transparent;}
+}
+
+@keyframes circle {
+   0% {stroke-dashoffset: 942.4777961; fill: transparent;}
+   60% {stroke-dashoffset: 0; fill: transparent;}
+   70% {stroke-dashoffset: 0; fill: #99c;}
+   100% {stroke-dashoffset: 942.4777961; fill: transparent;}
+}
